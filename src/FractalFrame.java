@@ -1,5 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
 
 public class FractalFrame extends JFrame
 {
@@ -9,11 +11,12 @@ public class FractalFrame extends JFrame
     {
         setTitle("Koch Snowflake");
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-        setSize(800,600);
+        setSize(1200,1000);
         setVisible(true);
 
         setLayout(new BorderLayout());
 
         add(component, BorderLayout.CENTER);
+
     }
 }
